@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+
+    <!--? Css Link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--? Javascript Link  -->
+    <script src="index.js" defer></script>
+
+    <!--? Boxicon Cdn   -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/logo.svg" alt="#" />
+          </div>
+          <nav class="navbar">
+            <ul>
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>New</li></a>
+              <a href="#"><li>Popular</li></a>
+              <a href="#"><li>Trending</li></a>
+              <a href="#"><li>Categories</li></a>
+            </ul>
+          </nav>
+
+          <div class="menu_bar" id="menuBar">
+            <img src="images/icon-menu.svg" alt="" class="bx-menu" />
+            <!-- <img src="images/icon-menu-close.svg" alt="" class="change-menu" /> -->
+          </div>
+        </div>
+
+        <div class="menu-mobile">
+          <!-- <i class="bx bx-x" onclick="onClose()"> </i> -->
+
+          <ul>
+            <a class="links" onclick="onClose()" href="#">Home</a>
+            <a class="links" onclick="onClose()" href="#">New</a>
+            <a class="links" onclick="onClose()" href="#">Popular</a>
+            <a class="links" onclick="onClose()" href="#">Trending</a>
+            <a class="links" onclick="onClose()" href="#">Categories</a>
+          </ul>
+        </div>
+      </header>
+      <main class="main-section">
+        <div class="bright">
+          <img src="images/image-web-3-desktop.jpg" alt="#" />
+          <div class="bright-content">
+            <h3>The Bright Future of Web 3.0?</h3>
+            <div class="info">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a href="#" class="read-btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="new">
+          <h2>New</h2>
+          <div class="content">
+            <h4>Hydrogen VS Electric Cars</h4>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr />
+          </div>
+
+          <div class="content">
+            <h4>The Downsides of AI Artistry</h4>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <hr />
+          </div>
+          <div class="content">
+            <h4>Is VC Funding Drying Up?</h4>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+
+        <div class="last">
+          <div class="last-content">
+            <img src="images/image-retro-pcs.jpg" alt="#" />
+            <div class="last-info">
+              <span>01</span>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+
+          <div class="last-content">
+            <img src="images/image-top-laptops.jpg" alt="#" />
+            <div class="last-info">
+              <span>02</span>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+
+          <div class="last-content">
+            <img src="images/image-gaming-growth.jpg" alt="#" />
+            <div class="last-info">
+              <span>03</span>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
